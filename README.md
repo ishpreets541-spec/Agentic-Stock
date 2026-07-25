@@ -37,66 +37,8 @@ A sophisticated multi-agent AI system for analyzing Indian NSE-listed stocks usi
 - Bright Data API account ([Sign up here](https://brightdata.com))
 - OpenAI API key ([Get one here](https://platform.openai.com))
 
-### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/rooneyrulz/agentic-stock-research-system
-   cd nse-stock-research-system
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variables**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your API keys
-   ```
-
-4. **Install Bright Data MCP**
-   ```bash
-   npm install -g @brightdata/mcp
-   ```
-
-### Running the Application
-
-1. **Start the Streamlit app**
-   ```bash
-   streamlit run streamlit_app.py
-   ```
-
-2. **Access the application**
-   - Open your browser to `http://localhost:8501`
-   - Enter your API keys in the sidebar
-   - Select analysis parameters
-   - Click "Start Analysis" and wait for results!
-
-## 🔧 Configuration
-
-### API Keys Setup
-
-#### Bright Data API Token
-1. Sign up at [Bright Data](https://brightdata.com)
-2. Navigate to your dashboard
-3. Go to "Zones" → "Web Unlocker" 
-4. Copy your API token
-
-#### OpenAI API Key
-1. Sign up at [OpenAI Platform](https://platform.openai.com)
-2. Go to "API Keys" section
-3. Create a new API key
-4. Copy the key (starts with 'sk-')
-
-### Analysis Types
-
-- **Short-term Trading (1-7 days)**: Focus on momentum, technical breakouts, and news catalysts
-- **Medium-term Investment (1-4 weeks)**: Emphasis on earnings, sector trends, and technical setups  
-- **General Market Analysis**: Broad market overview with top stock picks across sectors
-
-## 📈 Sample Output
+## 📈  Output
 
 ```
 🎯 TRADING RECOMMENDATIONS

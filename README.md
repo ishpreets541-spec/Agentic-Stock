@@ -134,60 +134,14 @@ Risk-Reward: 1:2.6 ratio
 - The Indian stock market involves substantial risk of loss
 - Do your own due diligence before making any investment decisions
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
 
-For support and questions:
-- Open an issue on GitHub
-- Check the documentation
-- Review the troubleshooting guide below
 
-### Troubleshooting
 
-**Common Issues:**
-
-1. **API Key Errors**
-   - Ensure your Bright Data token is valid and has sufficient credits
-   - Verify OpenAI API key starts with 'sk-' and has available quota
-
-2. **MCP Installation Issues**
-   ```bash
-   # Reinstall MCP globally
-   npm uninstall -g @brightdata/mcp
-   npm install -g @brightdata/mcp
    ```
 
-3. **Streamlit Issues**
-   ```bash
-   # Clear Streamlit cache
-   streamlit cache clear
-   ```
 
-4. **Import Errors**
-   ```bash
-   # Reinstall dependencies
-   pip install -r requirements.txt --force-reinstall
-   ```
-
-## 🔄 Version History
-
-- **v1.0.0** - Initial release with multi-agent architecture
-- **v1.1.0** - Added Streamlit UI and export functionality  
-- **v1.2.0** - Enhanced recommendation parsing and visualization
-
----
-
-**Made with ❤️ for the Indian Stock Market Community**

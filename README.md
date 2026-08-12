@@ -138,6 +138,15 @@ Risk-Reward: 1:2.6 ratio
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+### 👩‍💻 Author
+**Ishpreet Singh**
+
+M.Tech
+Indian Institute of Technology Bombay
+Mail ID:
+25m0326@iitb.ac.in
+---
 
 
 
